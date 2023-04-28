@@ -1,5 +1,9 @@
 # Change Log
 
+## [3.0.1] 2023-04-28
+
+- Update dependencies & devDependencies
+
 ## [3.0.0] 2022-06-24
 
 - Renamed components name prefix from Vsud to Soft.
