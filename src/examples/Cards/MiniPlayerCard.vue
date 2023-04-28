@@ -6,9 +6,10 @@
     <div class="cursor-pointer">
       <div
         class="full-background"
-        style="
-          background-image: url('../../../assets/img/curved-images/curved1.jpg');
-        "
+        :style="{
+          backgroundImage:
+            'url(' + require('@/assets/img/curved-images/curved1.jpg') + ')',
+        }"
       ></div>
       <div class="card-body">
         <h5 class="mb-0 text-white">{{ song.title }}</h5>
