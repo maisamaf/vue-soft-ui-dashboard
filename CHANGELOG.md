@@ -1,6 +1,6 @@
 # Change Log
 
-## [3.0.1] 2023-04-28
+## [3.0.1] 2023-06-14
 
 - Update dependencies & devDependencies
 
