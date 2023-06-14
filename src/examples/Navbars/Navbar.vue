@@ -84,6 +84,7 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
               @click="showMenu = !showMenu"
+              @blur="closeMenu"
             >
               <i class="cursor-pointer fa fa-bell"></i>
             </a>
@@ -222,6 +223,11 @@ export default {
     toggleSidebar() {
       this.toggleSidebarColor("bg-white");
       this.navbarMinimize();
+    },
+    closeMenu() {
+      setTimeout(() => {
+        this.showMenu = false;
+      }, 100);
     },
   },
   components: {
